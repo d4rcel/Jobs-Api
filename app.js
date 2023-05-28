@@ -3,7 +3,7 @@ require("express-async-errors");
 
 // extra security packages
 const helmet = require("helmet");
-const core = require("cors");
+const cors = require("cors");
 const xss = require("xss-clean");
 const rateLimiter = require("express-rate-limit");
 
